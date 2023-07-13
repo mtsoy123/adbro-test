@@ -1,0 +1,20 @@
+@font-face {
+    font-family: SVN-Helvetica-Neue-Heavy;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../assets/fonts/SVN-Helvetica-Neue-Heavy.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../../assets/fonts/Roboto-Medium.ttf);
+}

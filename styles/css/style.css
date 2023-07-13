@@ -1,4 +1,4 @@
-@import "../../assets/fonts/fonts.css"; /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+@import "./fonts.css"; /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -593,7 +593,7 @@ template {
   box-sizing: border-box;
   color: #ff0f12;
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 700;
@@ -614,7 +614,7 @@ template {
 .adbro-brand-boat {
   width: 115px;
   opacity: 0;
-  animation: boat 1s animation-delay ease forwards;
+  animation: boat 1s 1s ease forwards;
 }
 .adbro-brand-boat__container {
   position: absolute;

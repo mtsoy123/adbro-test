@@ -3,7 +3,7 @@
         box-sizing: border-box;
         color: $color-red;
         text-align: center;
-        font-family: Roboto;
+        font-family: "Roboto", "Arial", "Helvetica", sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 700;
@@ -29,7 +29,7 @@
     &-boat {
         width: 115px;
         opacity: 0;
-        animation: boat 1s animation-delay ease forwards;
+        animation: boat 1s $animation-delay ease forwards;
     }
     &-boat__container {
         position: absolute;

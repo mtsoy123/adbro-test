@@ -1,0 +1,39 @@
+.adbro-brand {
+    &-fish {
+        position: absolute;
+        bottom: 7px;
+        z-index: -1;
+        &_type_one {
+            left: 118px;
+            width: 61px;
+            animation: fish_first_render 1ms 1 ease forwards,
+                fish_type_one 2s $animation-delay ease-in-out infinite,
+                fish_opacity 3s 1 ease-in-out;
+        }
+
+        &_type_two {
+            left: 211px;
+            width: 64px;
+            animation: fish_first_render 1ms 1 ease forwards,
+                fish_type_two 3s $animation-delay ease-in-out infinite,
+                fish_opacity 3s 1 ease-in-out;
+        }
+
+        &_type_three {
+            right: 233px;
+            width: 63px;
+
+            animation: fish_first_render 1ms 1 ease forwards,
+                fish_type_three 3s $animation-delay ease-in-out infinite,
+                fish_opacity 3s 1 ease-in-out;
+        }
+
+        &_type_four {
+            right: 117px;
+            width: 63px;
+            animation: fish_first_render 1ms 1 ease forwards,
+                fish_type_four 3s $animation-delay ease-in-out infinite,
+                fish_opacity 3s 1 ease-in-out;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.adbro-brand {
+    &-boat__call-to-action {
+        box-sizing: border-box;
+        color: $color-red;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+
+        position: absolute;
+        bottom: 22px;
+        right: 10px;
+        padding: 7px 12px;
+        background-color: white;
+        border-radius: 20px;
+        margin: 0;
+        opacity: 0;
+
+        transform-origin: center;
+        animation: call 1s 1s ease infinite alternate forwards,
+            call-first 1s 1s ease 1 forwards;
+
+        z-index: 1;
+    }
+
+    &-boat {
+        width: 115px;
+        opacity: 0;
+        animation: boat 1s animation-delay ease forwards;
+    }
+    &-boat__container {
+        position: absolute;
+        top: 56px;
+        right: 102px;
+    }
+}

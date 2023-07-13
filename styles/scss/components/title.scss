@@ -1,0 +1,25 @@
+.adbro-brand {
+    &-title {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        position: absolute;
+        left: 80px;
+        bottom: 16px;
+        padding: 6px 5px;
+        border: $border-dark-wide;
+
+        color: $color-primary;
+        background-color: $color-white;
+        text-align: center;
+        font-family: "SVN-Helvetica-Neue-Heavy";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        opacity: 0;
+        animation: title 1s ease $animation-delay forwards;
+        z-index: 1;
+    }
+}

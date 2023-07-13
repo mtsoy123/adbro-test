@@ -1,0 +1,156 @@
+@keyframes fish_opacity {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+@keyframes logo {
+    from {
+        opacity: 0;
+        bottom: -62px;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+@keyframes boat {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 100%;
+        transform: scale(1);
+    }
+}
+
+@keyframes call {
+    from {
+        transform: scale(1.15);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes call-first {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bckg-white {
+    from {
+        margin-left: -350px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+@keyframes bckg-red {
+    from {
+        margin-right: -350px;
+    }
+    to {
+        margin-right: 0;
+    }
+}
+
+@keyframes title {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+@keyframes fish_first_render {
+    from {
+        transform: rotate(0deg);
+    }
+
+    50% {
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes fish_type_one {
+    from {
+        transform: rotate(-180deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes fish_type_two {
+    from {
+        transform: rotate(-180deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes fish_type_three {
+    from {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-180deg);
+    }
+}
+
+@keyframes fish_type_four {
+    from {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-180deg);
+    }
+}
+
+@keyframes bottle-type-white {
+    from {
+        top: 140px;
+    }
+    to {
+        top: 0;
+    }
+}
+@keyframes bottle-type-red {
+    from {
+        top: -140px;
+    }
+    to {
+        top: 0;
+    }
+}

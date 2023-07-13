@@ -1,0 +1,19 @@
+.adbro-brand {
+    &-bottle {
+        position: absolute;
+        height: 140px;
+    }
+
+    &-bottle_type_red {
+        top: 0;
+        left: 310px;
+
+        animation: bottle-type-red 1s ease-out;
+    }
+
+    &-bottle_type_white {
+        top: 0;
+        right: 310px;
+        animation: bottle-type-white 1s ease-out;
+    }
+}

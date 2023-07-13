@@ -1,0 +1,10 @@
+.adbro-brand {
+    &-logo {
+        width: 56px;
+        position: absolute;
+        right: 228px;
+        bottom: 6px;
+        opacity: 0;
+        animation: logo 1s $animation-delay ease forwards;
+    }
+}

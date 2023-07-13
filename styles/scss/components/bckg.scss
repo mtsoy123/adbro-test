@@ -1,0 +1,19 @@
+.adbro-brand {
+    &-bckg {
+        height: 95px;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+
+        &_type_white {
+            left: 0;
+            width: 350px;
+            animation: bckg-white 1s ease-out;
+        }
+        &_type_red {
+            right: 0;
+            width: 350px;
+            animation: bckg-red 1s ease-out;
+        }
+    }
+}

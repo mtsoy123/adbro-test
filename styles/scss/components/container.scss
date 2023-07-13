@@ -1,0 +1,25 @@
+.adbro-brand {
+    &-container {
+        width: 900px;
+        height: 800px;
+        display: flex;
+
+        flex-direction: column;
+        justify-content: end;
+        background-color: #c4c4c4;
+        position: relative;
+        z-index: 0;
+    }
+
+    &-container__banner {
+        position: relative;
+        width: 700px;
+        height: 140px;
+        overflow: hidden;
+        display: flex;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

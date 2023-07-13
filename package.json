@@ -1,0 +1,32 @@
+{
+    "name": "starter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode development",
+        "prod": "webpack --mode production",
+        "watch": "webpack --watch --mode development"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.4.13",
+        "copy-webpack-plugin": "^11.0.0",
+        "css-loader": "^6.7.3",
+        "mini-css-extract-plugin": "^2.7.2",
+        "postcss": "^8.4.21",
+        "postcss-loader": "^7.0.2",
+        "sass": "^1.58.3",
+        "sass-loader": "^13.2.0",
+        "stylelint": "^15.2.0",
+        "stylelint-webpack-plugin": "^4.1.0",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1"
+    },
+    "dependencies": {
+        "custom-select": "^1.1.15"
+    }
+}

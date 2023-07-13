@@ -636,7 +636,7 @@ template {
   height: 800px;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   background-color: #c4c4c4;
   position: relative;
   z-index: 0;
